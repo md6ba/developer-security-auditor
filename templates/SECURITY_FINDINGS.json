@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "{{generated_at}}",
+  "language": "{{language}}",
+  "repository": "{{repository}}",
+  "mode": "{{mode}}",
+  "finding_count": 0,
+  "severity_counts": {
+    "CRITICAL": 0,
+    "HIGH": 0,
+    "MEDIUM": 0,
+    "LOW": 0,
+    "INFORMATIONAL": 0
+  },
+  "findings": [
+    {
+      "finding_id": "RULE-ID-0001",
+      "rule_id": "RULE-ID",
+      "schema_version": "1.0.0",
+      "title": "Short title",
+      "severity": "HIGH",
+      "confidence": "CONFIRMED",
+      "component": "module or package",
+      "file_path": "path/relative/to/repo.py",
+      "line_start": 10,
+      "line_end": 12,
+      "explanation": "What the code does and why it is a weakness.",
+      "impact": "What an attacker or accident could achieve.",
+      "evidence": "Redacted evidence: length, charset class, sha256 prefix.",
+      "remediation": "Concrete fix the owner can apply.",
+      "cwe": "CWE-79",
+      "owasp": "A03:2021",
+      "status": "UNVERIFIED - POTENTIALLY EXPOSED",
+      "commit": "abc1234def",
+      "historical_only": false,
+      "occurrences": 1,
+      "fingerprint": "8f3a1c9e2b7d",
+      "advisory": ""
+    }
+  ],
+  "secret_values_included": false
+}

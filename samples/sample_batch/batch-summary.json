@@ -1,0 +1,82 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-11-05T07:01:22Z",
+  "root": "/path/to/repos",
+  "mode": "secret-only",
+  "size_ceiling_mb": 100,
+  "modules": [
+    "secret_scan.py",
+    "git_history_scan.py"
+  ],
+  "repositories_found": 2,
+  "repositories_scanned": 2,
+  "repositories_skipped": 0,
+  "repositories_with_errors": 0,
+  "severity_totals": {
+    "CRITICAL": 4,
+    "HIGH": 4,
+    "MEDIUM": 2,
+    "LOW": 0,
+    "INFORMATIONAL": 0
+  },
+  "findings_total": 10,
+  "scanned": [
+    {
+      "repository": "alpha",
+      "path": "/path/to/repos/alpha",
+      "size_bytes": 26934,
+      "findings_total": 5,
+      "severity_counts": {
+        "CRITICAL": 2,
+        "HIGH": 2,
+        "MEDIUM": 1,
+        "LOW": 0,
+        "INFORMATIONAL": 0
+      },
+      "modules_run": [
+        "secret_scan.py",
+        "git_history_scan.py"
+      ],
+      "module_errors": []
+    },
+    {
+      "repository": "beta",
+      "path": "/path/to/repos/beta",
+      "size_bytes": 26934,
+      "findings_total": 5,
+      "severity_counts": {
+        "CRITICAL": 2,
+        "HIGH": 2,
+        "MEDIUM": 1,
+        "LOW": 0,
+        "INFORMATIONAL": 0
+      },
+      "modules_run": [
+        "secret_scan.py",
+        "git_history_scan.py"
+      ],
+      "module_errors": []
+    }
+  ],
+  "skipped": [],
+  "errors": [],
+  "priority_order": [
+    {
+      "repository": "alpha",
+      "critical": 2,
+      "high": 2,
+      "total": 5
+    },
+    {
+      "repository": "beta",
+      "critical": 2,
+      "high": 2,
+      "total": 5
+    }
+  ],
+  "limitations": [
+    "Skipped repositories were NOT scanned; their exposure is unknown.",
+    "A finding means exposure, never that a credential is valid or active.",
+    "Automated scanning does not replace a professional security audit."
+  ]
+}

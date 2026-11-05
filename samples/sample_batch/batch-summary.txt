@@ -1,0 +1,20 @@
+Batch scan summary — /path/to/repos
+Generated: 2026-11-05T07:01:22Z
+Mode: secret-only | Size ceiling: 100 MB
+
+Repositories found:    2
+Scanned:               2
+Skipped (size):        0
+With module errors:    0
+
+Severity totals:
+  CRITICAL       4
+  HIGH           4
+  MEDIUM         2
+  LOW            0
+  INFORMATIONAL  0
+  TOTAL          10
+
+Priority order (most urgent first):
+  alpha: 2C / 2H / 1M / 5 total
+  beta: 2C / 2H / 1M / 5 total
