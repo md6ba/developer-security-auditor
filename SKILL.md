@@ -1,7 +1,7 @@
 ---
 name: developer-security-auditor
 description: Audit public and local repos for security weaknesses.
-version: 1.0.0
+version: 1.1.0
 author: md6ba, Hermes Agent
 license: MIT
 platforms: [linux, macos]
